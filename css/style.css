@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+:root {
+  --gray: #C4C4C4;
+  --black: #000000;
+}
+
+body{
+
+}
+a{
+  text-decoration: none;
+  color: var(--black);
+}
+#carouselCidades {
+/*   position: absolute;
+  height: 350px;
+  top: 0;
+  z-index: -1; */
+}
+
+.blockquote {
+  position: absolute;
+  top: 40%;
+}
+
+main {
+}
+.card {
+  width: 400px;
+  height: 350px;
+  border-radius: 20px;
+}
+.card img {
+  width: 100%;
+  height: 60%;
+  border-radius: 20px 20px 0 0;
+}
+
+footer {
+  background-color: var(--gray);
+}
+input[type="text"] {
+  padding: 5px;
+  border-radius: 12px;
+}
+form button {
+  padding: 5px 20px;
+  border-radius: 50px;
+}
+.nav-footer li{
+  padding-right: 30px;
+  padding-bottom: 5px;
+}
