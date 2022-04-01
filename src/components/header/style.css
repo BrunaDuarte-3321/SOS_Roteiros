@@ -1,0 +1,41 @@
+header {
+  position: relative;
+  width: 100%;
+  min-width: 400px;
+}
+.navbar {
+  position: absolute;
+  width: 100%;
+}
+blockquote {
+  position: absolute;
+  top: 30%;
+  font-size: 96px;
+  color: var(--efect);
+}
+.banner img {
+  width: 100%;
+}
+.nav li a,
+.nav-footer li a {
+  text-decoration: none;
+  color: var(--font);
+  font-size: 20px;
+}
+.nav li a:hover,
+.nav-footer li a:hover,
+.nav-footer li:hover {
+  text-decoration: none;
+  color: var(--efect);
+}
+.filter {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 30px;
+  background: var(--efect);
+  width: 50%;
+}
